@@ -2,15 +2,16 @@
 
 
 ### Description
+- Created infrastructure Resources in AWS using Terraform tool
 - Here, we created 2 EC2 instances [web instance , Mysql_RDS instance]
-- the web instance in a public-subnet and can be reached over internet
-- the mysql-RDS instance in 2 private subnets
+- The web instance in a public-subnet and can be reached over internet
+- The mysql-RDS instance in 2 private subnets
 
      
-- By using the Terraform tool you could create a VPC, subnets, security-group, internet-gateway and EC2 instance  in AWS.
+- By using the Terraform tool you could create a VPC, subnets, security-group, internet-gateway and EC2 instance in AWS.
 - Benefit of that project: 
-	You save time by automating the creation of your infrastructure using Terraform
-  You can reuse that code in different cloud providers such as GCP, AWS, Azure, Oracle, etc.. and create an infrastructure just by changing the  resources name
+ -- You save time by automating the creation of your infrastructure using Terraform
+ -- You can reuse that code in different cloud providers such as GCP, AWS, Azure, Oracle, etc.. and create an infrastructure just by changing the  resources name
 	
 ## :warning:  NOTE:
 - This Project is divided to Modules and Project
