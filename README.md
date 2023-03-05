@@ -25,9 +25,10 @@
 
 #### 📝 The Resources that will be created are:
 
-- **Subnets : **
+- **Subnets :**
    - 2 private subnets 
    - Public subnet that associated to Internet-gateway so it can be accessed over internet
+- **Internet-gateway**
   
 - **SecurityGroups :**
 	- security-group for web instance that allow ports [80 and 443]
