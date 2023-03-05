@@ -14,9 +14,9 @@
  -- You can reuse that code in different cloud providers such as GCP, AWS, Azure, Oracle, etc.. and create an infrastructure just by changing the  resources name
 	
 ## :warning:  NOTE:
-- This Project is divided to Modules and Project
-    - the modules are hosted on a github Repo here is the link     https://github.com/DinaSol/Tier2-APP-Module.git
-    - the project in this Repo so I referred to the modules in the code that exist in "main.tf"
+- This Project is divided into Modules and Project
+    - the modules are hosted on a github Repo here is the link     **https://github.com/DinaSol/Tier2-APP-Module.git**
+    - the project is in this current Repo so I referred to the modules in the code that exist in **main.tf**
 -  Here I used **Paris Region**.
 - Also in the EC2 code, I used **operating system image in that Region also** so if you changed the Region you must set an image of that region .
 
@@ -63,13 +63,16 @@
 ------------
 ### How to use the Project
 
-1. $ terraform init
-2. $ terraform plan
+**first run these 2 commands**
+1.  -  $ terraform init
+2.  -  $ terraform plan
 
-to create this infrastructure use this command : 
- - $ terraform apply
+to **create this infrastructure** use this command : 
+    - $ terraform apply
 
-to delete this infrastructure use this command: 
--  $ terraform destroy
+to **delete this infrastructure** use this command: 
+    -  $ terraform destroy
 
+------------
 
+Happy Ending ... :relaxed:
